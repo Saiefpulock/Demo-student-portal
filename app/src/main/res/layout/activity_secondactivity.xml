@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".secondactivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="198dp"
+        android:layout_height="144dp"
+        app:srcCompat="@drawable/bravo"
+        android:layout_marginTop="10dp"/>
+
+   <TableRow
+        android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="20dp"
+
+       >
+       <TextView
+           android:id="@+id/textView20"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Name :" >
+       </TextView>
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="174dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="student X"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="77dp" >
+    </EditText>
+
+
+   </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+
+        >
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:text="ID " >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="183dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="171dp" >
+
+    </EditText>
+    </TableRow>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="331dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="semester : 2nd"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="272dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="year: 1st"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="422dp"
+        android:text="courses"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_x="300dp"
+        android:layout_y="800dp"
+        android:text="Result"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+
+
+
+
+
+</TableLayout>
